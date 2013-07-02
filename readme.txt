@@ -9,8 +9,8 @@ Author: WebDevStudios
 Author URI: http://webdevstudios.com
 Requires at least: 3.3
 Tested up to: 3.6
-Stable tag: 1.0.0
-Version: 1.0.0
+Stable tag: 1.0.1
+Version: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,10 +36,16 @@ Jetpack's handling of photo's captions doesn't work well with long captions (as 
 
 == Changelog ==
 
+= 1.0.1 =
+* Fix slideshow height quirks with smaller images
+
 = 1.0.0 =
 * Launch.
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+* Fix slideshow height quirks with smaller images
 
 = 1.0.0 =
 * Launch.

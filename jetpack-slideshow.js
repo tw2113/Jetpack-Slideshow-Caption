@@ -46,7 +46,7 @@ JetpackSlideshow.prototype.init = function() {
 		caption.innerHTML = imageInfo.caption;
 		var container = document.createElement('div');
 		container.className = 'slideshow-slide';
-		container.style.lineHeight = this.height + 'px';
+		// container.style.lineHeight = this.height + 'px';
 
 		// Hide loading image once first image has loaded.
 		if ( i == 0 ) {
@@ -154,9 +154,10 @@ JetpackSlideshow.prototype.onCycleBefore = function( currSlideElement, nextSlide
 	setTimeout( function() {
 		imgheight = jQuery('img', self).outerHeight();
 		captionheight = jQuery('.slideshow-slide-caption',self).outerHeight();
-		new_height = imgheight + captionheight + 15;
+		captionheight = captionheight > 0 ? captionheight + 12 : 0;
+		new_height = imgheight + captionheight;
 
-		self.css( { height: new_height});
+		self.css({ height: new_height});
 		self.parents('.jetpack-slideshow').animate( { height: new_height}, 500 );
 	}, 200);
 }

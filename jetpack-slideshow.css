@@ -72,7 +72,7 @@ body div.slideshow-window * img {
 .slideshow-controls {
 	z-index: 1000;
 	position: absolute;
-	top: 340px;
+	top: 5px;
 	margin: auto;
 	text-align: center;
 	width: 100%;

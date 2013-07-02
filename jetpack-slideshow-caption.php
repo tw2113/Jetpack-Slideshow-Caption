@@ -4,7 +4,7 @@ Plugin Name: Jetpack Slideshow Caption
 Plugin URI: http://webdevstudios.com/
 Description: Modifies Jetpack's default slideshow caption feature.
 Author: WebDevStudios.com
-Version: 1.0.0
+Version: 1.0.1
 Author URI: http://webdevstudios.com/
 License: GPLv2
 */
