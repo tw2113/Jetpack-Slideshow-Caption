@@ -22,6 +22,8 @@ Jetpack has a pretty robust Image slideshow feature. (If you don't know, "Add Me
 
 Jetpack's handling of photo's captions doesn't work well with long captions (as it overlays the caption above the photo). This plugin modifies the layout so that the caption is displayed below the photo and the slideshow expands to accommodate.
 
+Contribute on [github](https://github.com/WebDevStudios/Jetpack-Slideshow-Caption).
+
 --------------------------
 
 == Installation ==
