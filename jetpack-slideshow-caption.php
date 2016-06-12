@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Jetpack Slideshow Caption
+Plugin Name: Slideshow Captions for Jetpack
 Plugin URI: http://webdevstudios.com/
 Description: Modifies Jetpack's default slideshow caption feature.
 Author: WebDevStudios.com
