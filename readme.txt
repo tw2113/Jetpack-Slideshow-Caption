@@ -24,6 +24,8 @@ Jetpack's handling of photo's captions doesn't work well with long captions (as 
 
 Contribute on [github](https://github.com/WebDevStudios/Jetpack-Slideshow-Caption).
 
+Slideshow Captions for Jetpack is not maintained by Automattic.
+
 [Pluginize](https://pluginize.com/?utm_source=slideshow-captions&utm_medium=text&utm_campaign=wporg) was launched in 2016 by [WebDevStudios](https://webdevstudios.com/) to promote, support, and house all of their [WordPress products](https://pluginize.com/shop/?utm_source=slideshow-captions&utm_medium=text&utm_campaign=wporg). Pluginize is not only creating new products for WordPress all the time, but also provides [ongoing support and development for WordPress community favorites like CPTUI](https://wordpress.org/plugins/custom-post-type-ui/), [CMB2](https://wordpress.org/plugins/cmb2/), and more.
 
 --------------------------
