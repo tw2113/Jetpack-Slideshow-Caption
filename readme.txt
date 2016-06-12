@@ -8,9 +8,9 @@ Tags: Jetpack, slideshow, caption, photos
 Author: WebDevStudios
 Author URI: http://webdevstudios.com
 Requires at least: 3.3
-Tested up to: 3.6
-Stable tag: 1.0.1
-Version: 1.0.1
+Tested up to: 4.5.2
+Stable tag: 1.0.2
+Version: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -40,6 +40,9 @@ Contribute on [github](https://github.com/WebDevStudios/Jetpack-Slideshow-Captio
 
 == Changelog ==
 
+= 1.0.2 =
+* Fix deprecated jQuery code.
+
 = 1.0.1 =
 * Fix slideshow height quirks with smaller images
 
@@ -47,6 +50,9 @@ Contribute on [github](https://github.com/WebDevStudios/Jetpack-Slideshow-Captio
 * Launch.
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+* Fix deprecated jQuery code.
 
 = 1.0.1 =
 * Fix slideshow height quirks with smaller images
