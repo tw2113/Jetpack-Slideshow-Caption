@@ -1,8 +1,8 @@
 === Plugin Name ===
-Jetpack Slideshow Caption
+Slideshow Captions for Jetpack
 
 Contributors: jtsternberg, webdevstudios
-Plugin Name: Jetpack Slideshow Caption
+Plugin Name: Slideshow Captions for Jetpack
 Plugin URI: http://webdevstudios.com
 Tags: Jetpack, slideshow, caption, photos
 Author: WebDevStudios
