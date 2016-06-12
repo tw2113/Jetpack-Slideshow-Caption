@@ -77,11 +77,7 @@ JetpackSlideshow.prototype.makeZeroWidthSpan = function() {
 	emptySpan.className = 'slideshow-line-height-hack';
 	// Having a NBSP makes IE act weird during transitions, but other
 	// browsers ignore a text node with a space in it as whitespace.
-	if (jQuery.browser.msie) {
-		emptySpan.appendChild( document.createTextNode(' ') );
-	} else {
-		emptySpan.innerHTML = '&nbsp;';
-	}
+	emptySpan.innerHTML = '&nbsp;';
 	return emptySpan;
 };
 
