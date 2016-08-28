@@ -8,7 +8,7 @@ Tags: Jetpack, slideshow, caption, photos
 Author: WebDevStudios
 Author URI: http://webdevstudios.com
 Requires at least: 3.3
-Tested up to: 4.5.2
+Tested up to: 4.6
 Stable tag: 1.0.2
 Version: 1.0.2
 License: GPLv2 or later
