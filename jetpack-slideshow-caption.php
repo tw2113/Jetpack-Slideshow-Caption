@@ -9,7 +9,6 @@ Author URI: http://webdevstudios.com/
 License: GPLv2
 */
 
-add_action( 'wp_footer', 'wds_replace_jetpack_scripts', 5 );
 /**
  * Hijacks Jetpack's enqueueing of it's slideshow JS/CSS and replaces with our own modified versions.
  */
@@ -34,3 +33,4 @@ function wds_replace_jetpack_scripts() {
 	}
 
 }
+add_action( 'wp_footer', 'wds_replace_jetpack_scripts', 5 );
