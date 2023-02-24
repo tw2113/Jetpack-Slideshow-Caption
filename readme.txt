@@ -42,6 +42,10 @@ Slideshow Captions for Jetpack is not maintained by Automattic.
 
 == Changelog ==
 
+= 1.1.0 =
+* Updated: confirmed compatibilty with latest versions of Jetpack and WordPress
+* Updated: matched up javascript and styles to current Jetpack
+
 = 1.0.3 =
 * Ownership transfer
 
