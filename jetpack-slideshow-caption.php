@@ -1,14 +1,15 @@
 <?php
 /*
 Plugin Name: Slideshow Captions for Jetpack
-Plugin URI: http://webdevstudios.com/
+Plugin URI: https://michaelbox.net
 Description: Modifies Jetpack's default slideshow caption feature.
-Author: WebDevStudios.com
-Version: 1.0.2
-Author URI: http://webdevstudios.com/
+Author: Michael Beckwith
+Version: 1.0.3
+Author URI: https://michaelbox.net
 License: GPLv2
 */
 
+add_action( 'wp_footer', 'wds_replace_jetpack_scripts', 5 );
 /**
  * Hijacks Jetpack's enqueueing of it's slideshow JS/CSS and replaces with our own modified versions.
  */
@@ -33,4 +34,3 @@ function wds_replace_jetpack_scripts() {
 	}
 
 }
-add_action( 'wp_footer', 'wds_replace_jetpack_scripts', 5 );
