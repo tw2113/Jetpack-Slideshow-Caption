@@ -4,7 +4,7 @@ Plugin Name: Slideshow Captions for Jetpack
 Plugin URI: https://michaelbox.net
 Description: Modifies Jetpack's default slideshow caption feature.
 Author: Michael Beckwith
-Version: 1.0.3
+Version: 1.1.0
 Author URI: https://michaelbox.net
 License: GPLv2
 */
@@ -13,6 +13,8 @@ License: GPLv2
  * Hijacks Jetpack's enqueueing of it's slideshow JS/CSS and replaces with our own modified versions.
  */
 function wds_replace_jetpack_scripts() {
+
+	$version = '1.1.0';
 
 	if ( ! class_exists( 'Jetpack' ) || ! Jetpack::is_module_active( 'shortcodes' ) ) {
 		return;
@@ -26,8 +28,8 @@ function wds_replace_jetpack_scripts() {
 		wp_deregister_style( 'jetpack-slideshow' );
 
 		// & instead enqueue our own modified versions.
-		wp_enqueue_script( 'jetpack-slideshow', plugins_url( 'jetpack-slideshow.js', __FILE__ ), [ 'jquery-cycle' ], '1.0', true );
-		wp_enqueue_style( 'jetpack-slideshow', plugins_url( 'jetpack-slideshow.css', __FILE__ ), null, '1.0' );
+		wp_enqueue_script( 'jetpack-slideshow', plugins_url( 'jetpack-slideshow.js', __FILE__ ), [ 'jquery-cycle' ], $version, true );
+		wp_enqueue_style( 'jetpack-slideshow', plugins_url( 'jetpack-slideshow.css', __FILE__ ), null, $version );
 
 		// Script needs to be re-localized.
 		wp_localize_script(
