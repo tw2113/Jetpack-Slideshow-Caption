@@ -6,8 +6,9 @@ Plugin URI: https://michaelbox.net
 Tags: Jetpack, slideshow, caption, photos
 Author: WebDevStudios
 Author URI: https://michaelbox.net
-Requires at least: 3.3
-Tested up to: 4.7
+Requires at least: 5.2
+Requires PHP: 5.6
+Tested up to: 6.1.1
 Stable tag: 1.0.3
 Version: 1.0.3
 License: GPLv2 or later
@@ -18,6 +19,8 @@ Modifies Jetpack's default slideshow caption feature.
 == Description ==
 
 Jetpack has a pretty robust Image slideshow feature. (If you don't know, "Add Media" button > "Create Gallery" > Choose photos > "Create new gallery" > Change type to slideshow in "Gallery Settings" > "Insert Gallery")
+
+Make sure you have "Compose using shortcodes to embed media from popular sites" enabled in "Settings" > "Writing" > Composing section of Jetpack settings.
 
 Jetpack's handling of photo's captions doesn't work well with long captions (as it overlays the caption above the photo). This plugin modifies the layout so that the caption is displayed below the photo and the slideshow expands to accommodate.
 
